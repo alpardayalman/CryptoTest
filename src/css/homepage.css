@@ -1,0 +1,80 @@
+.homepage {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.homepage-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.homepage-text {
+  font-size: 50px;
+  text-align: center;
+}
+
+.homepage-small-text {
+  max-width: 430px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.color-text {
+  /*  color: rgb(145, 72, 238);
+  color: linear-gradient(
+    90deg,
+    rgba(145, 72, 238, 1) 0%,
+    rgba(162, 139, 244, 1) 29%,
+    rgba(180, 208, 250, 1) 100%
+  ); */
+
+  /*  color: rgb(228, 207, 255);
+  color: linear-gradient(
+    90deg,
+    rgba(228, 207, 255, 1) 0%,
+    rgba(162, 139, 244, 1) 29%,
+    rgba(180, 208, 250, 1) 100%
+  ); */
+  color: rgb(228, 207, 255);
+  color: linear-gradient(
+    90deg,
+    rgba(228, 207, 255, 1) 0%,
+    rgba(162, 139, 244, 1) 29%,
+    rgba(137, 110, 250, 1) 67%,
+    rgba(180, 208, 250, 1) 100%
+  );
+}
+
+@media (max-width: 650px) {
+  .homepage-text {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 470px) {
+  .homepage-text {
+    font-size: 35px;
+  }
+}
