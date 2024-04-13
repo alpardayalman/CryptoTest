@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CryptoTest/static/css/main.df0f89d1.css",
+    "main.js": "/CryptoTest/static/js/main.205f45f1.js",
+    "static/media/phoneimg.png": "/CryptoTest/static/media/phoneimg.92ba7ed3f8cdc4545759.png",
+    "static/media/png.png": "/CryptoTest/static/media/png.7a904869152a71169fe7.png",
+    "static/media/textlogo.png": "/CryptoTest/static/media/textlogo.9638bb0b0d005f1bf624.png",
+    "index.html": "/CryptoTest/index.html",
+    "main.df0f89d1.css.map": "/CryptoTest/static/css/main.df0f89d1.css.map",
+    "main.205f45f1.js.map": "/CryptoTest/static/js/main.205f45f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df0f89d1.css",
+    "static/js/main.205f45f1.js"
+  ]
+}
